@@ -1,7 +1,7 @@
 import cv2
 
 def main():
-    camera = cv2.VideoCapture(-1)
+    camera = cv2.VideoCapture(0)   # 0 for PC, -1 for Pi
     camera.set(3, 640)
     camera.set(4, 480)
 
